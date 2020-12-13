@@ -1,0 +1,27 @@
+/* Цвета */
+
+$main-color: #68b738;
+$header-text: #111111;
+$desc-text: #444444;
+$alt-text: #ffffff;
+$main-background: #ffffff;
+$alt-background: #f2f2f2;
+$border-color: #ebebeb;
+$hover-btn: #5eaa2f;
+$alt-hover-btn: #ebebeb;
+
+/* Шрифты */
+
+$header-font: "Oswald", "Arial", sans-serif;
+$desc-font: "Arial", "Helvetica", sans-serif;
+
+/* Размеры для адаптивных сеток */
+
+$mobile-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1300px;
+
+/* Параметры для оптимизации графики */
+
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
