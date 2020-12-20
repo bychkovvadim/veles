@@ -25,7 +25,8 @@
     "postcss": "^8.2.1",
     "posthtml-include": "^1.6.0",
     "stylelint": "13.8.x",
-    "stylelint-config-htmlacademy": "0.1.x"
+    "stylelint-config-htmlacademy": "0.1.x",
+    "bootstrap": "^5.0.0-beta1"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
