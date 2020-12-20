@@ -6,6 +6,7 @@
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "10.1.x",
+    "bootstrap": "^5.0.0-beta1",
     "browser-sync": "2.26.x",
     "del": "^6.0.0",
     "gulp": "4.0.x",
@@ -25,8 +26,7 @@
     "postcss": "^8.2.1",
     "posthtml-include": "^1.6.0",
     "stylelint": "13.8.x",
-    "stylelint-config-htmlacademy": "0.1.x",
-    "bootstrap": "^5.0.0-beta1"
+    "stylelint-config-htmlacademy": "0.1.x"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
@@ -50,5 +50,8 @@
   ],
   "engines": {
     "node": "15.4.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1"
   }
 }
