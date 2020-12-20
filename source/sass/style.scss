@@ -1,11 +1,15 @@
 /* Общие файлы стилей */
 
-@import "normalize.scss";
+// @import "normalize.scss";
 @import "variables.scss";
 @import "mixins.scss";
 @import "fonts.scss";
 @import "visually-hidden.scss";
 @import "scaffolding.scss";
+
+// Option A: Include all of Bootstrap
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 /* Стили блоков */
 
