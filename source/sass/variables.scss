@@ -17,9 +17,14 @@ $desc-font: "Arial", "Helvetica", sans-serif;
 
 /* Размеры для адаптивных сеток */
 
-$mobile-width: 320px;
-$tablet-width: 768px;
-$desktop-width: 1300px;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 320px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px
+);
 
 /* Параметры для оптимизации графики */
 
