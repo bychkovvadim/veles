@@ -1,0 +1,12 @@
+/* подключение scss файлов блоков, общих для всех страниц */
+.title {
+  font-family:'Playfair Display', Times, serif;
+  font-size: 35px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 46,66px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}

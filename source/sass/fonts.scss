@@ -1,15 +1,47 @@
 @font-face {
-  font-family: "Oswald";
-  src: local("Oswald-Regular"),
-    url("../fonts/oswaldregular.woff2") format("woff2"),
-    url("../fonts/oswaldregular.woff") format("woff");
+  font-family: "Playfair Display";
+  src: local("Playfair-Display-Black"),
+    url("../fonts/PlayfairDisplaySC-Black.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Black.woff") format("woff");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway-Light"),
+    url("../fonts/raleway-v18-latin_cyrillic-300.woff2") format("woff2"),
+    url("../fonts/raleway-v18-latin_cyrillic-300.woff") format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway-Regular"),
+    url("../fonts/raleway-v18-latin_cyrillic-400.woff2") format("woff2"),
+    url("../fonts/raleway-v18-latin_cyrillic-400.woff") format("woff");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Oswald";
-  src: local("Oswald-Medium"),
-    url("../fonts/oswaldmedium.woff2") format("woff2"),
-    url("../fonts/oswaldmedium.woff") format("woff");
+  font-family: "Raleway";
+  src: local("Raleway-Medium"),
+    url("../fonts/raleway-v18-latin_cyrillic-500.woff2") format("woff2"),
+    url("../fonts/raleway-v18-latin_cyrillic-500.woff") format("woff");
   font-weight: 500;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway-Semi-bold"),
+    url("../fonts/raleway-v18-latin_cyrillic-600.woff2") format("woff2"),
+    url("../fonts/raleway-v18-latin_cyrillic-600.woff") format("woff");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway-Bold"),
+    url("../fonts/raleway-v18-latin_cyrillic-700.woff2") format("woff2"),
+    url("../fonts/raleway-v18-latin_cyrillic-700.woff") format("woff");
+  font-weight: 700;
 }
