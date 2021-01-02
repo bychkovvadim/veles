@@ -1,12 +1,169 @@
 /* подключение scss файлов блоков, общих для всех страниц */
-.title {
-  font-family:'Playfair Display', Times, serif;
-  font-size: 35px;
-  font-weight: 900;
-  font-style: normal;
-  line-height: 46,66px;
+body {
+  font-family: 'Raleway', Arial, sans-serif !important;
+  font-style: normal !important;
 }
 
-.nav-link {
+.container {
+  min-width: 1440px;
+}
+
+.title {
+  padding: 50px 0;
+  padding-bottom: 38px;
+}
+
+.title h1{
+  padding: 0 60px;
+  font-family: 'Playfair Display', Times, serif;
+  font-size: 35px;
+  font-weight: 900;
+  line-height: 47px;
+}
+
+.navigation-header {
+  padding: 4px 0;
+  padding-bottom: 47px;
+}
+
+.navigation-header .nav-link {
+  color: $text-color;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  top: 8em !important;
+  text-decoration: none;
+}
+
+.carousel-control-prev {
+  left: 160px !important;
+}
+
+.carousel-control-next {
+  right: 160px !important;
+}
+
+.carousel-caption {
+ 
+}
+
+.carousel-caption h5{
+  width: 500px;
+  margin: auto;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 85px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.carousel-caption p{
+  width: 440px;
+  margin: auto;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.promo {
+  margin-bottom: 100px;
+}
+
+.news .row {
+  padding-bottom: 30px;
+}
+
+.news .card { 
+  width: 470px;
+  margin: auto 135px;
+  border: none;
+  border-radius: 0px;
+}
+
+.news .card-img {
+  border-radius: 0px;
+}
+
+.news .card-img-overlay {
+  top: 225px;
+}
+
+.news-top.card-title {
+  font-size: 20px !important;
+  line-height: 27px !important;
+}
+
+.news-top .card-text {
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.news .card-title{
+  margin-top: -7px;
+  font-family: 'Playfair Display',  Times, serif;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.news .card-text {
+  font-size: 10px;
+  line-height: 150%;
+}
+
+.banner {
+  
+}
+
+.banner .card { 
+  width: 370px;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 2rem;
+
+    &:nth-child(1) {
+      background: no-repeat url('../img/bogdan-pasca-1114196-unsplash.png');
+    }
+
+    &:nth-child(2) {
+      background: no-repeat url('../img/jeremy-bishop-1114290-unsplash.png');
+    }
+    
+    &:nth-child(3) {
+      background: no-repeat url('../img/drew-colins-1114440-unsplash.png');
+    }
+}
+
+.banner .card-title {
+  margin-bottom: 23.5rem;
+}
+
+.banner .btn {
+  border: solid $main-color 2px;
+  border-radius: 0;
+  background: transparent;
+
+  &:hover {
+    background: $main-color;
+    border: solid $main-color 2px;
+  }
+
+  &:active {
+    background: $main-color;
+    border-color: $main-color;
+    outline: none;
+  }
+
+  &:focus {
+    background: $main-color;
+    border-color: $main-color;
+    box-shadow: none;
+    outline: solid #fff 1px;
+  }
 }
