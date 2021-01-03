@@ -137,10 +137,11 @@ body {
   width: 100%;
   height: 100%;
   max-height: 479px;
+  position: relative;
   border: none;
   border-radius: 0;
   margin-bottom: 2rem;
-  background-size: auto 479px;
+  overflow: hidden;
 
     &:nth-child(1) {
       background: no-repeat url('../img/drew-colins-1114440-unsplash.png');
@@ -161,6 +162,10 @@ body {
 }
 
 .banner .btn {
+  position: absolute;
+  content: '';
+  top: 350px;
+  left: 130px;
   border: solid $main-color 2px;
   border-radius: 0;
   background: transparent;
@@ -182,6 +187,14 @@ body {
     box-shadow: none;
     outline: solid #fff 1px;
   }
+
+  &.contrast {
+    background-color: $main-color;
+    
+    &:hover {
+      background-color: transparent;
+    }
+  }
 }
 
 .banner .card-title {
@@ -196,4 +209,17 @@ body {
   &.contrast {
     color: #000;
   }
+}
+
+.review {
+  max-width: 1170px;
+  margin: 0 auto !important;
+}
+
+.review h5 {
+  margin-bottom: -2px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-transform: uppercase;
 }
