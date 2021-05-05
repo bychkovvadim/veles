@@ -257,6 +257,10 @@ body {
   line-height: 17px;
   opacity: 0.4;
   color: #000;
+
+    &:hover {
+      background-color: #fff;
+    }
 }
 
 .pagination .page-item.active .page-link {
@@ -264,4 +268,54 @@ body {
   background-color: #fff;
   border-color: #fff;
   opacity: 1;
+
+    &:hover {
+      background-color: #fff;
+    }
+}
+
+.review-banner .card {
+  background: url('/img/balet.png') no-repeat;
+  padding: 12px;
+}
+
+.review-banner .card-title {
+  font-family: 'Raleway', Arial, sans-serif;
+  @include clear-indents;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.review-banner .btn {
+  border: solid #ff7931 2px;
+  border-radius: 0;
+  background: 0 0;
+
+    &:hover {
+      background: $main-color;
+      border: solid $main-color 2px;
+    }
+
+    &:active {
+      background: $main-color;
+      border-color: $main-color;
+      outline: none;
+    }
+
+    &:focus {
+      background: $main-color;
+      border-color: $main-color;
+      box-shadow: none;
+      outline: solid #fff 1px;
+    }
+
+    &.contrast {
+      background-color: $main-color;
+
+      &:hover {
+        background-color: transparent;
+      }
+    }
 }
