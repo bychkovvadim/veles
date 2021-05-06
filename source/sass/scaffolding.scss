@@ -326,10 +326,15 @@ body {
     }
 }
 
+.footer {
+  padding-bottom: 20px;
+  background-color: #F7F7F7;
+}
+
 .title-footer {
   padding: 50px 0;
   padding-bottom: 38px;
-  background-color: #F7F7F7;
+
 }
 
 .title-footer h2 {
@@ -343,7 +348,6 @@ body {
 .navigation-footeer {
   padding: 4px 0;
   padding-bottom: 47px;
-  background-color: #F7F7F7;
 }
 
 .navigation-footeer .nav {
@@ -357,5 +361,22 @@ body {
   line-height: 18px;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+.footer-line {
+  width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  height: 2px;
+  background: #000;
+  opacity: 0.4;
+}
+
+.copyright {
+  width: 1170px;
+  margin: 0 auto;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: end;
 }
 
