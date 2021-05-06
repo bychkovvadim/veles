@@ -222,7 +222,12 @@ body {
 
 .review .card {
   border: none;
+  border-radius: 0;
   margin-bottom: 37px;
+}
+
+.review .card img {
+  border-radius: 0;
 }
 
 .review h5 {
@@ -289,6 +294,7 @@ body {
 }
 
 .review-banner .btn {
+  margin-left: -125px;
   border: solid #ff7931 2px;
   border-radius: 0;
   background: 0 0;
@@ -319,3 +325,37 @@ body {
       }
     }
 }
+
+.title-footer {
+  padding: 50px 0;
+  padding-bottom: 38px;
+  background-color: #F7F7F7;
+}
+
+.title-footer h2 {
+  padding: 0 26px 0 32px;
+  font-family: 'Playfair Display', Times, serif;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 37px;
+}
+
+.navigation-footeer {
+  padding: 4px 0;
+  padding-bottom: 47px;
+  background-color: #F7F7F7;
+}
+
+.navigation-footeer .nav {
+  width: 1170px;
+}
+
+.navigation-footeer .nav-link {
+  color: $text-color;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
