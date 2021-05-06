@@ -92,6 +92,15 @@ body {
   padding-bottom: 17px;
 }
 
+.news-link {
+  text-decoration: none;
+  color: #000;
+
+  &:hover {
+    color: #000;
+  }
+}
+
 .news img {
   max-width: 100%;
   height: auto;
@@ -113,6 +122,10 @@ body {
 .news-top .card-title {
   font-size: 20px !important;
   line-height: 27px !important;
+
+  &:hover {
+    color: #ff7931;
+  }
 }
 
 .news-top .card-text {
@@ -126,6 +139,10 @@ body {
   font-weight: 900;
   font-size: 14px;
   line-height: 19px;
+
+  &:hover {
+    color: #ff7931;
+  }
 }
 
 .news .card-text {
@@ -226,6 +243,15 @@ body {
   margin-bottom: 37px;
 }
 
+.review-link {
+text-decoration: none;
+color: #000;
+
+&:hover {
+  color: #000;
+}
+}
+
 .review .card img {
   border-radius: 0;
 }
@@ -238,13 +264,17 @@ body {
   text-transform: uppercase;
 }
 
-.review .card-title{
+.review .card-title {
   margin-top: -5px;
   margin: 20px 0 11px 0;
   font-family: 'Playfair Display',  Times, serif;
   font-weight: 900;
   font-size: 23px;
   line-height: 31px;
+
+  &:hover {
+    color: #ff7931;
+  }
 }
 
 .review .card-text {
@@ -269,12 +299,14 @@ body {
 }
 
 .pagination .page-item.active .page-link {
+  position: relative;
   color: #000;
   background-color: #fff;
-  border-color: #fff;
   opacity: 1;
 
-    &:hover {
+    &:hover
+    &:focus {
+      outline: #ff7931;
       background-color: #fff;
     }
 }
@@ -291,6 +323,10 @@ body {
   font-size: 30px;
   font-weight: 500;
   line-height: 35px;
+
+  &:hover {
+    color: #fff;
+  }
 }
 
 .review-banner .btn {
@@ -332,7 +368,7 @@ body {
 }
 
 .title-footer {
-  padding: 50px 0;
+  padding: 26px 0 32px;
   padding-bottom: 38px;
 
 }
@@ -349,7 +385,7 @@ body {
   width: 1170px;
   margin: 0 auto;
   padding: 4px 0;
-  padding-bottom: 47px;
+  margin-bottom: 46px;
 }
 
 .navigation-footer .nav {
