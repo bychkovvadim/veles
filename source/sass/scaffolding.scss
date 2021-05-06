@@ -345,16 +345,19 @@ body {
   line-height: 37px;
 }
 
-.navigation-footeer {
+.navigation-footer {
+  width: 1170px;
+  margin: 0 auto;
   padding: 4px 0;
   padding-bottom: 47px;
 }
 
-.navigation-footeer .nav {
+.navigation-footer .nav {
   width: 1170px;
+  justify-content: space-between;
 }
 
-.navigation-footeer .nav-link {
+.navigation-footer .nav-link {
   color: $text-color;
   font-size: 15px;
   font-weight: 400;
@@ -367,7 +370,7 @@ body {
   width: 1170px;
   margin: 0 auto;
   margin-bottom: 20px;
-  height: 2px;
+  height: 1px;
   background: #000;
   opacity: 0.4;
 }
